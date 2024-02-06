@@ -1,0 +1,53 @@
+header{
+    background-color: lightblue;
+    padding: 10px;
+}
+
+body{
+    background: #D8DFE8;
+}
+
+main{
+    padding: 30px;
+}
+
+.textarea-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.textarea-cifrado {
+    resize: none;
+    height: 400px; /* Establece la altura deseada para textarea-cifrado */
+    
+  }
+  
+.textarea-escribir {
+    resize: none;
+    width: 500px; /* Establece la altura deseada para textarea-escribir */
+    height: 300px;
+    margin-right: 200px; /* Agrega espacio entre los textareas */
+  }
+
+.botones{
+    margin-left: 140px;
+}
+
+.botones button {
+    width: 150px; /* Ancho fijo para ambos botones */
+    margin-right: 10px;
+  }
+
+
+
+footer{
+    background: lightblue;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 13px;
+}
