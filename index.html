@@ -20,28 +20,19 @@
 
         <main>
 
-            
-
-            <!-- <div class="textarea-muestra-cifrado">
-                <textarea class="textarea-cifrado"></textarea>
-            </div>
-
-            <div class="textarea-escribir-cifrado">
-                <textarea class="textarea-escribir" placeholder="Escribir texto aquí"></textarea>
-            </div> -->
 
             <div class="textarea-container">
 
 
-                <textarea class="textarea-escribir" placeholder="Escribir texto aquí"></textarea>
-                <textarea class="textarea-cifrado"></textarea>
-
+                <textarea class="textarea-escribir" id="textarea-escritura" placeholder="Ingrese el texto aquí"></textarea>
+                <textarea class="textarea-cifrado" id="textarea-mostrar-cifrado" readonly ></textarea>
             </div>
             
             <div class="botones">
                 
-                <button class="button-cifrar" type="submit">Encriptar</button>
-                <button class="button-descifrar" type="submit">Desencriptar</button>
+                <button class="button-cifrar" id="button-encriptar" type="submit">Encriptar</button>
+                <button id="button-desencriptar" class="button-descifrar" type="submit">Desencriptar</button>
+                <button class="button-copiar" >Copiar</button>
             </div>
 
 
@@ -52,6 +43,8 @@
         <footer>
             <p>Derechos Reservados Michael Dylan Ramos Benítez</p>
         </footer>
+
+        <script src="./app.js"></script>
 
     </body>
 

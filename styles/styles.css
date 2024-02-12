@@ -1,5 +1,5 @@
 header{
-    background-color: lightblue;
+    background-color: #B2C0CC;
     padding: 10px;
 }
 
@@ -22,32 +22,60 @@ main{
 .textarea-cifrado {
     resize: none;
     height: 400px; /* Establece la altura deseada para textarea-cifrado */
+    border-radius: 13px;
+    outline: none;
+    border: none;
     
   }
+
   
 .textarea-escribir {
     resize: none;
     width: 500px; /* Establece la altura deseada para textarea-escribir */
     height: 300px;
     margin-right: 200px; /* Agrega espacio entre los textareas */
+    background-color: #D8DFE8;
+    border: none;
+    outline: none;
   }
 
 .botones{
-    margin-left: 140px;
+    margin-left: 260px;
+    padding: 20px;
 }
 
 .botones button {
-    width: 150px; /* Ancho fijo para ambos botones */
+    width: 200px; /* Ancho fijo para ambos botones */
+    height: 30px;
     margin-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: solid 1px darkblue;
+    border-radius: 10px;
+    cursor: pointer;
   }
 
+.botones button.button-cifrar {
+    color: white;
+    background-color: rgb(23, 23, 168);
+}
+
+.botones button.button-descifrar {
+    color: darkblue;
+    background-color: #D8DFE8;
+}
+
+.button-copiar{
+    
+    margin-left: 188px;
+}
 
 
 footer{
-    background: lightblue;
+    background: #B2C0CC;
     color: white;
     text-align: center;
-    padding: 30px;
+    padding: 31px;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 14px;
 }
